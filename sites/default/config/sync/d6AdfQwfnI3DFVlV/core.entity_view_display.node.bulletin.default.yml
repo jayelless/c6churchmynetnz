@@ -1,0 +1,48 @@
+uuid: 01b2075f-43c7-492a-9769-61cb244cba63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bulletin.body
+    - field.field.node.bulletin.field_bulletin_file
+    - field.field.node.bulletin.field_date
+    - node.type.bulletin
+  module:
+    - datetime
+    - file
+    - text
+    - user
+_core:
+  default_config_hash: LXfaTYTTC8VE0SUuN537UUyPproTMoi98parhdHpSJs
+id: node.bulletin.default
+targetEntityType: node
+bundle: bulletin
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_bulletin_file:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_date:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,43 @@
+uuid: 8c7df7d1-4a31-4da1-8d74-6ff211fdd0df
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.podcast.body
+    - field.field.node.podcast.field_audio
+    - field.field.node.podcast.field_audio_url
+    - field.field.node.podcast.field_author
+    - field.field.node.podcast.field_date
+    - node.type.podcast
+  module:
+    - file
+    - text
+    - user
+_core:
+  default_config_hash: zVkYS_VyWUlBkRsj2lTz1Obl_xDoHjfUQGQJVN4jVeg
+id: node.podcast.rss
+targetEntityType: node
+bundle: podcast
+mode: rss
+content:
+  body:
+    label: hidden
+    type: text_trimmed
+    weight: 0
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_audio:
+    type: file_rss_enclosure
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_audio_url: true
+  field_author: true
+  field_date: true
+  links: true

@@ -1,0 +1,20 @@
+uuid: eb88b59e-0c8d-4700-8f7a-1f0d5a2a3605
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: YiKfCC50tM0Tbg5EWS45rwWX24LIXzFxhRp8ypxGNho
+name: Gallery
+type: gallery
+description: 'Galleries are collections of images with descriptions.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

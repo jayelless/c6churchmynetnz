@@ -1,0 +1,11 @@
+uuid: 7b01b2a8-ffc7-4b7e-8847-80b953c49c6a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vstONa-ysx5F0evPZPNqSE-JHzJ4ThZ9ajMcRQ-iSr0
+name: 'Staff Type'
+vid: staff_type
+description: ''
+hierarchy: 0
+weight: 0

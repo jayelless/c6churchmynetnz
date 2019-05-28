@@ -1,0 +1,26 @@
+uuid: a2165bb4-2a57-4d08-96c1-078d1d107f6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - openchurch_theme
+_core:
+  default_config_hash: Vaku_j547GO1ifXJv6LefpsKBONA5Fp0cSgnnB8x8Hw
+id: openchurch_theme_main_menu
+theme: openchurch_theme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

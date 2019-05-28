@@ -1,0 +1,29 @@
+uuid: 2da2a960-b480-42d0-9ac4-3c61cf4a30ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bulletin_file
+    - node.type.bulletin
+  module:
+    - file
+_core:
+  default_config_hash: wsSEbhM-Lh_kLgKb22i6UGHEXU0yigQ5Cd2LEkk4vd8
+id: node.bulletin.field_bulletin_file
+field_name: field_bulletin_file
+entity_type: node
+bundle: bulletin
+label: 'Bulletin File'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: ''
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

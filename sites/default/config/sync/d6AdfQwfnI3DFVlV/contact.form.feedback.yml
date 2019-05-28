@@ -1,0 +1,14 @@
+uuid: 36ec340e-253e-4bc5-93c9-94ad148c4204
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MDdooP6J7uRcKuNEo1sye0adyrJmd59e7j8iao1BSKo
+id: feedback
+label: 'Contact Us'
+recipients:
+  - admin@pallene.lan
+reply: ''
+weight: 0
+message: null
+redirect: null

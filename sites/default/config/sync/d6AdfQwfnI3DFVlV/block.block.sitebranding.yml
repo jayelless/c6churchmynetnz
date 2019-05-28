@@ -1,0 +1,25 @@
+uuid: bd526f5b-2343-4cd1-b403-314e43aaf50f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - openchurch_theme
+_core:
+  default_config_hash: UULK3kfJMvZQOhk_0j3kpN5QjRjyDC-EUl3YVZansKo
+id: sitebranding
+theme: openchurch_theme
+region: header
+weight: null
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: b5231067-b2d3-4cf9-95f7-c4be4ece87b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.gallery
+_core:
+  default_config_hash: LzB4tQTOm67XZnFuLHZW0xb0MvfCD2qrlET_G3837Wg
+id: node.gallery.field_location
+field_name: field_location
+entity_type: node
+bundle: gallery
+label: Location
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string_long

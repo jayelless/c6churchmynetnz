@@ -1,0 +1,28 @@
+uuid: 3630303e-8dd9-4cf2-beab-ee835970779b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ministry
+    - node.type.event
+    - node.type.ministry
+_core:
+  default_config_hash: 3zR4QbDjMOHej3oQOg1f6EFfxDa_4b7hTfc1yAx-o1c
+id: node.event.field_ministry
+field_name: field_ministry
+entity_type: node
+bundle: event
+label: Ministry
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      ministry: ministry
+    sort:
+      field: _none
+field_type: entity_reference

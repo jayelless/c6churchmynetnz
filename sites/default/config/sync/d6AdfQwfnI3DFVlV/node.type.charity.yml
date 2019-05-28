@@ -1,0 +1,20 @@
+uuid: 305c0f69-acd1-404c-b9be-bc4616bd748a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: nxcf5nNUZ0bOzvS4VHxA316LzjgWrspESvFjlaSpJyg
+name: Charity
+type: charity
+description: 'A charity allows church members to give to an individual cause that will help community, missions, and many other causes.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

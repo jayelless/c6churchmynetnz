@@ -1,0 +1,23 @@
+uuid: 88f720d4-4f59-4547-a65e-d07f0f970965
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: yT6L2TafGkPgw7QprNZ7asxH15WiJhUpCx9n03j3RIk
+id: node.field_audio_url
+field_name: field_audio_url
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

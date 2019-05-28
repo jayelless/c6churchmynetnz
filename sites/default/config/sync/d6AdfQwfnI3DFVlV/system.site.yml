@@ -1,0 +1,9 @@
+page:
+  front: /front
+_core:
+  default_config_hash: WRxsPQUb0_dbqkfwnekTKp83FTJ8k8qGV1tVz8_sUks
+uuid: 9604499b-82cb-4025-8bdf-f93565a44c2e
+name: 'Pallene OpenChurch'
+langcode: en
+default_langcode: en
+mail: admin@pallene.lan

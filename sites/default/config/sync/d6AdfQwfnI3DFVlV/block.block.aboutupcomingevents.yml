@@ -1,0 +1,32 @@
+uuid: 99e05acc-66a1-4141-9ca3-a200150deb41
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - openchurch_theme
+_core:
+  default_config_hash: Jp1gVuIPbKIbOJCaxetVwQ5gfXP84DP0uQejlFYfWYY
+id: aboutupcomingevents
+theme: openchurch_theme
+region: content
+weight: null
+provider: null
+plugin: 'block_content:8c8bde94-2272-43c2-ac09-9d428b751073'
+settings:
+  id: 'block_content:8c8bde94-2272-43c2-ac09-9d428b751073'
+  label: 'About Upcoming Events'
+  provider: block_content
+  label_display: '0'
+  cache:
+    max_age: -1
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /events
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,24 @@
+uuid: 4ad7b3fa-ecb0-41a8-8abf-e83706171703
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.podcast
+  module:
+    - text
+_core:
+  default_config_hash: hiIAhRWB-Qf095PT6nj6b_8H5Edo84P_fmj_hEDjzro
+id: node.podcast.body
+field_name: body
+entity_type: node
+bundle: podcast
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

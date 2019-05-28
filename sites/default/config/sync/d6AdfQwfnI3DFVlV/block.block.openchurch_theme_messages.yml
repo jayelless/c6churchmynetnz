@@ -1,0 +1,22 @@
+uuid: 026e7fdc-c296-453e-be3a-e6e6e4a86b18
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - openchurch_theme
+_core:
+  default_config_hash: cp-lC0K_u2McwQ2SWt4hFC8lQz7Pvo65HmC5zVtaUhk
+id: openchurch_theme_messages
+theme: openchurch_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

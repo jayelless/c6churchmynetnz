@@ -1,0 +1,25 @@
+uuid: c43c0919-a25c-4cd5-abd3-e8e79593b32f
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+_core:
+  default_config_hash: eXOqvy1vCUNk-AeREq4kdTNqpXT1KWiNxz3BWOQP86U
+id: node.field_bulletin_file
+field_name: field_bulletin_file
+entity_type: node
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

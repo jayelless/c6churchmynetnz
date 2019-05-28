@@ -1,0 +1,25 @@
+uuid: 9e7b9cc1-769d-4abd-913f-f2dae268ef94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.homepage_rotator
+  module:
+    - link
+_core:
+  default_config_hash: fjhiSKgwlMkGvwBblGyihcVdcN1GHo2bSi-pOeb5ALE
+id: node.homepage_rotator.field_link
+field_name: field_link
+entity_type: node
+bundle: homepage_rotator
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

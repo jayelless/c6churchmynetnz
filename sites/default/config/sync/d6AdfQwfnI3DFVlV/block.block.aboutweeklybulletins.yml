@@ -1,0 +1,32 @@
+uuid: c358874f-0999-424e-aef7-1efc74c4eb7c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - openchurch_theme
+_core:
+  default_config_hash: GSc7aBIpRGH569kPLhr90SkCF5ELyJNkxrV6b6SlhCU
+id: aboutweeklybulletins
+theme: openchurch_theme
+region: content
+weight: null
+provider: null
+plugin: 'block_content:925e85dd-47b2-4ee5-9c51-815fa4fb2691'
+settings:
+  id: 'block_content:925e85dd-47b2-4ee5-9c51-815fa4fb2691'
+  label: 'About Weekly Bulletins'
+  provider: block_content
+  label_display: '0'
+  cache:
+    max_age: -1
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /media/bulletins
+    negate: false
+    context_mapping: {  }

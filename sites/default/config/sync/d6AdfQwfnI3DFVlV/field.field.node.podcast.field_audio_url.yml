@@ -1,0 +1,21 @@
+uuid: 5be805bf-87ed-4f88-8086-c0f1af7e51ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_audio_url
+    - node.type.podcast
+_core:
+  default_config_hash: 5eGABeVePlbDtLiUhCWudRpo9i2rOtQ8DGsJdNYidOM
+id: node.podcast.field_audio_url
+field_name: field_audio_url
+entity_type: node
+bundle: podcast
+label: 'Audio URL'
+description: 'Optional audio URL when files are hosted off-site or by a 3rd party.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

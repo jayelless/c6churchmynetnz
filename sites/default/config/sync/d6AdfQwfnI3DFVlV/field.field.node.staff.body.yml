@@ -1,0 +1,24 @@
+uuid: 32767f3b-92cd-4994-87df-ef4f89fa759c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.staff
+  module:
+    - text
+_core:
+  default_config_hash: NOLxbGEJyvtw4u3QPpNbxwTirIhwKSjWCa1cCGuGx8U
+id: node.staff.body
+field_name: body
+entity_type: node
+bundle: staff
+label: About
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

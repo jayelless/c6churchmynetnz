@@ -1,0 +1,23 @@
+uuid: 5dcedc3b-2702-4ac8-8a53-6476870d208a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cost
+    - node.type.event
+_core:
+  default_config_hash: IQn_b--qv5WjhbtWj4cYZ1cxNjbDovoY4UuonupMMus
+id: node.event.field_cost
+field_name: field_cost
+entity_type: node
+bundle: event
+label: Cost
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

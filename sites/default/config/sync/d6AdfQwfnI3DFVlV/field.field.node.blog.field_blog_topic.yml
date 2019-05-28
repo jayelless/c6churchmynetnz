@@ -1,0 +1,28 @@
+uuid: efaf85a0-fcbb-4633-a6b5-1d9ae11858ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_topic
+    - node.type.blog
+_core:
+  default_config_hash: 4TysXVaE2UVhCp9RKfUtzS7b2OjL9F_NBwPoGOhEIvo
+id: node.blog.field_blog_topic
+field_name: field_blog_topic
+entity_type: node
+bundle: blog
+label: 'Blog Topic'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      blog_topic: blog_topic
+    sort:
+      field: _none
+    auto_create: true
+field_type: entity_reference

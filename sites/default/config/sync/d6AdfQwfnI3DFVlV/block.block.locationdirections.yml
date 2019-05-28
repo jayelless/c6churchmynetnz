@@ -1,0 +1,25 @@
+uuid: 5f1bd140-079d-47fd-8388-a486ee842802
+langcode: en
+status: true
+dependencies:
+  theme:
+    - openchurch_theme
+_core:
+  default_config_hash: sRH6u7EQNopaUg6TDXzrPPDPcwl780D3PcCGgXWdrSY
+id: locationdirections
+theme: openchurch_theme
+region: triptych_first
+weight: null
+provider: null
+plugin: 'block_content:cf9e28db-c481-4e75-9027-398458f2bc82'
+settings:
+  id: 'block_content:cf9e28db-c481-4e75-9027-398458f2bc82'
+  label: 'Location & Directions'
+  provider: block_content
+  label_display: visible
+  cache:
+    max_age: -1
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

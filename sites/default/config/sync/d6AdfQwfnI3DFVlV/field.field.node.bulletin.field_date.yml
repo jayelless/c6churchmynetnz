@@ -1,0 +1,23 @@
+uuid: bc210c10-82f4-40dd-801b-b8ec5268e06b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.bulletin
+  module:
+    - datetime
+_core:
+  default_config_hash: b4EVDn79TKcJRO0tgkN0ukLRcTcYg_NWoIkDXWzs8OQ
+id: node.bulletin.field_date
+field_name: field_date
+entity_type: node
+bundle: bulletin
+label: 'Bulletin Date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

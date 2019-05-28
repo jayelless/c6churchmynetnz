@@ -1,0 +1,22 @@
+uuid: abf4a97d-1f0f-4d0b-9ef9-43487e660f0b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - openchurch_theme
+_core:
+  default_config_hash: '-sDBPP9ugMZkuCbYoy3gy4IRjJtGKUFLUD6FCOT6XBo'
+id: openchurch_theme_local_tasks
+theme: openchurch_theme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: 3562a0df-40c6-4673-a59a-da42548bd4c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.homepage_rotator.field_image
+    - field.field.node.homepage_rotator.field_link
+    - node.type.homepage_rotator
+  module:
+    - user
+_core:
+  default_config_hash: m4ED_p0KM4i5DyYxS-y3E0oDvenocRRiAb89IHCwWqQ
+id: node.homepage_rotator.teaser
+targetEntityType: node
+bundle: homepage_rotator
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_image: true
+  field_link: true

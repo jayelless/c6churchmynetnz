@@ -1,0 +1,22 @@
+uuid: 6bd5a794-12b6-4ed7-a7bf-57b43b6c988b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - openchurch_theme
+_core:
+  default_config_hash: VpdUvgm5btHJxbshSgqk366WwMyyew5MFrEwDEanxMQ
+id: openchurch_theme_breadcrumbs
+theme: openchurch_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

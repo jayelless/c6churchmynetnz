@@ -1,0 +1,11 @@
+uuid: e1a6944a-68d2-4e96-afa0-5a5f580c35c1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SN40V8ExNrABfP2geozZalWPv0AVi8YtDI69AC4ULOs
+name: 'Blog Topic'
+vid: blog_topic
+description: ''
+hierarchy: 0
+weight: 0

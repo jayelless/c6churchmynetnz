@@ -1,0 +1,22 @@
+uuid: 78e6b858-6683-467d-a842-fa3bfb6e9acb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: m6R868wm4kRVU4-CMMhJ77EytVC20fIQXCkLwIecsiU
+id: node.field_staff_type
+field_name: field_staff_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,16 @@
+uuid: a912b496-46b0-4c3f-9afc-9dd068d578c3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 84h8J3XrzmMMghtZ0e_dcp1C7oudx-1HF2_EZ0yhczQ
+name: homepage_rotator
+label: 'Homepage Rotator'
+effects:
+  657f1fff-6f41-4825-8d09-9d985eb56fb0:
+    uuid: 657f1fff-6f41-4825-8d09-9d985eb56fb0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 700
+      height: 357

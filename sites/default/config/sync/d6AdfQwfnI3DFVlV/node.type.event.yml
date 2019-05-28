@@ -1,0 +1,20 @@
+uuid: 89724916-d4bb-4c1f-8c1e-3466accd6ecd
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: YUB86R5mcN6YCBpx0PMiiT2k8vgCwbwFOB9P_OMnVJE
+name: Event
+type: event
+description: 'Events can be church activities, special meetings, etc.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

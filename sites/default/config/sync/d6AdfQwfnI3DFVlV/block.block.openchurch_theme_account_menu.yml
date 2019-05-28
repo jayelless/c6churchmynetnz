@@ -1,0 +1,26 @@
+uuid: b258f50f-ef6d-4dff-a614-75e4e0c8f55a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - openchurch_theme
+_core:
+  default_config_hash: 8bqWNC9zmNo9hPESRCxSCCFMB0GtPMh9U2ql6GrAWgA
+id: openchurch_theme_account_menu
+theme: openchurch_theme
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

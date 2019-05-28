@@ -1,0 +1,20 @@
+uuid: 575a0387-5127-4e09-b584-6bd23a22ae42
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: 7XsOhN88M3byk_GQlYMMf04e52G1EKc3HBLpLDLLqq8
+name: Ministry
+type: ministry
+description: 'Ministry pages describe various church ministries that members want to know more about.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

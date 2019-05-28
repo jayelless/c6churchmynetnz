@@ -1,0 +1,20 @@
+uuid: c9ab1978-2543-424e-b264-53700caa6e0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: MoCN_ZsagLYYGRuFKCMEUwbhdCEnKE5jb_ANB4ruwfo
+name: Bulletin
+type: bulletin
+description: 'A bulletin is an electronic version of the news bulletin handed out during church service.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

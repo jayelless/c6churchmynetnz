@@ -1,0 +1,44 @@
+uuid: d38ad9b0-7a5f-4797-be54-0e7b7a6f2895
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ministry.body
+    - field.field.node.ministry.field_downloads
+    - field.field.node.ministry.field_image
+    - field.field.node.ministry.field_thumb
+    - image.style.ministry_thumb
+    - node.type.ministry
+  module:
+    - image
+    - text
+    - user
+_core:
+  default_config_hash: iTVP4rBEYdyfKkGc84lM9-ALaPCPPRPv5boydB9-voc
+id: node.ministry.teaser
+targetEntityType: node
+bundle: ministry
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_thumb:
+    type: image
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ministry_thumb
+      image_link: content
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_downloads: true
+  field_image: true
+  links: true

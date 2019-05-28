@@ -1,0 +1,20 @@
+uuid: 82093f5d-2ba3-402d-9447-fc459fe8d8fb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - openchurch_theme
+_core:
+  default_config_hash: af9rEH6To711xh4InsLo3V09oa4aB3hGijsslY2bIqQ
+id: openchurch_theme_local_actions
+theme: openchurch_theme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

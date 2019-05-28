@@ -1,0 +1,24 @@
+uuid: 73c95e1a-0bc3-4ae3-81bd-142065b0f611
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.charity
+_core:
+  default_config_hash: lRlxcvA1zNAlOTHzQe5C6F7zGz9h2nmen0T1qkgeV8w
+id: node.charity.promote
+field_name: promote
+entity_type: node
+bundle: charity
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

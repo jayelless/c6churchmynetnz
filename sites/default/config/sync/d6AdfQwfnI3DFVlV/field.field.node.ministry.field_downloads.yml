@@ -1,0 +1,29 @@
+uuid: c98ad4f3-64ca-42e1-a333-a0ad81faceae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_downloads
+    - node.type.ministry
+  module:
+    - file
+_core:
+  default_config_hash: FlGkk4ROQ6fRoECV2nI89TqV6SZ9A5boEjLv-t6cQuA
+id: node.ministry.field_downloads
+field_name: field_downloads
+entity_type: node
+bundle: ministry
+label: 'Related Downloads'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: ''
+  file_extensions: 'pdf doc docx txt'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

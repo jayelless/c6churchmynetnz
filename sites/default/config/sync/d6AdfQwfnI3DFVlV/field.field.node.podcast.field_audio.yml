@@ -1,0 +1,29 @@
+uuid: edf8c724-3e35-4a4b-a9c3-6442e0aba7ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_audio
+    - node.type.podcast
+  module:
+    - file
+_core:
+  default_config_hash: RGnxIRj--86_GflWSsmhQXXITMWY8m8AtSz9HWiVkYQ
+id: node.podcast.field_audio
+field_name: field_audio
+entity_type: node
+bundle: podcast
+label: Audio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: ''
+  file_extensions: mp3
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

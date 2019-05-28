@@ -1,0 +1,24 @@
+uuid: 2fcbb473-51d5-4129-8fca-b0ae4efef5e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.charity
+  module:
+    - text
+_core:
+  default_config_hash: xs6n_gxVjL8QG-3wsQnMIHbVeg2TbitclCol3PPhi24
+id: node.charity.body
+field_name: body
+entity_type: node
+bundle: charity
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

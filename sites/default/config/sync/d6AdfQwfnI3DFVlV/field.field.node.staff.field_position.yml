@@ -1,0 +1,23 @@
+uuid: 8b9981ab-3e17-4ac8-952c-cd7c7fc08b61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_position
+    - node.type.staff
+_core:
+  default_config_hash: mZlTIcxPBQq4agLBssD9K_SoR5CSksxa7aUr1-TpmAw
+id: node.staff.field_position
+field_name: field_position
+entity_type: node
+bundle: staff
+label: Position
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

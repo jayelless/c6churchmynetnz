@@ -1,0 +1,17 @@
+uuid: 62f9e12f-c775-4692-995d-6cee834b2639
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: VLfH3iCGi5Ja8JK5ggZ-cMDYGRH9IqxPDm_tvoDizM8
+name: logo
+label: Logo
+effects:
+  117ce32d-7fa8-4b8e-8e1d-29d7dc02d666:
+    uuid: 117ce32d-7fa8-4b8e-8e1d-29d7dc02d666
+    id: image_scale
+    weight: 1
+    data:
+      width: 60
+      height: null
+      upscale: false

@@ -1,0 +1,20 @@
+uuid: 2d9ea884-f698-4f22-9d54-39600a447be2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: OnLgGPMmGZOkdDYR1T5oNqPWjNnhEcXTs-dF5Q7HaIg
+name: Staff
+type: staff
+description: 'A staff member is someone that works in the church, including both administrative and church leadership.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

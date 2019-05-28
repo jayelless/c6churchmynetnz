@@ -1,0 +1,22 @@
+uuid: c1255e29-388a-469b-bba2-43380cc3025f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - openchurch_theme
+_core:
+  default_config_hash: ViQPwVsUxBk3owLpnJpdTvEpAcXXaqTufb9_w7-VWe4
+id: openchurch_theme_content
+theme: openchurch_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

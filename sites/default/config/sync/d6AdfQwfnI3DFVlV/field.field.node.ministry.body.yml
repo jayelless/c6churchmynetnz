@@ -1,0 +1,24 @@
+uuid: 7987e67e-f295-4ede-a89b-58ac74672886
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ministry
+  module:
+    - text
+_core:
+  default_config_hash: L0ezk1_MqTexDtWeoztejv46xPy1shOiVkK22tdVl50
+id: node.ministry.body
+field_name: body
+entity_type: node
+bundle: ministry
+label: 'What We Offer'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

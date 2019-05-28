@@ -1,0 +1,20 @@
+uuid: a06663b6-b4f9-4e4f-90c8-a48365d3c5f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: B69SWukQzvVx3YojtuOw4UD3jwwktAc7TGWAhIOoGjg
+name: Podcast
+type: podcast
+description: 'Podcasts can be sermons, lectures or other church-related audio files.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

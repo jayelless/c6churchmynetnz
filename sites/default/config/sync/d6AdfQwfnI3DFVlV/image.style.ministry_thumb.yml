@@ -1,0 +1,16 @@
+uuid: c328930d-a0e6-4fbc-8735-3b2522d865f4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jhRCy5mRofMflyAfC4aEY_w2kTDL1d9GClMccDDpR0s
+name: ministry_thumb
+label: 'Ministry Thumb'
+effects:
+  cb5fc981-11e7-4f1d-be1a-26693ff77ecb:
+    uuid: cb5fc981-11e7-4f1d-be1a-26693ff77ecb
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100

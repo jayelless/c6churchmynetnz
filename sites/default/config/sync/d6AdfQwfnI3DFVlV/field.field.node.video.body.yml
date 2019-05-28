@@ -1,0 +1,24 @@
+uuid: fbef1ee5-e6df-47a4-bfa5-aa797f9ec53c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.video
+  module:
+    - text
+_core:
+  default_config_hash: O3UQs8cpDgBENr0JAQJ8bq6kWnvJXNMJ9k0M1Len0Ms
+id: node.video.body
+field_name: body
+entity_type: node
+bundle: video
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

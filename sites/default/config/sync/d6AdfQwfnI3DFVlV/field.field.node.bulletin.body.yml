@@ -1,0 +1,24 @@
+uuid: 44f433c4-6cd9-4972-9720-c94abb68f674
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.bulletin
+  module:
+    - text
+_core:
+  default_config_hash: lzUiSrksKmG0EzxTzssfq5RmdsC61jKWXw3Yw5YLMJ4
+id: node.bulletin.body
+field_name: body
+entity_type: node
+bundle: bulletin
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

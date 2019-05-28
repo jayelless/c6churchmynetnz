@@ -1,0 +1,42 @@
+uuid: 0ac0b233-9272-43ee-8faa-8740b797642e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.charity.body
+    - field.field.node.charity.field_image
+    - image.style.medium
+    - node.type.charity
+  module:
+    - image
+    - text
+    - user
+_core:
+  default_config_hash: 0LEC2xhrybg82JFb53FpTos9zdl4ghFROsqasVfnMzE
+id: node.charity.default
+targetEntityType: node
+bundle: charity
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

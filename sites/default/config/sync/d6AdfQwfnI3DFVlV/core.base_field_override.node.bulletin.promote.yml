@@ -1,0 +1,24 @@
+uuid: c38be5f4-4361-49d2-b24a-5110f77ecc6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bulletin
+_core:
+  default_config_hash: imr0x2L4xUpitWQa1pOBTTlC8v5IIGvI-ot8Kp6eouo
+id: node.bulletin.promote
+field_name: promote
+entity_type: node
+bundle: bulletin
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
